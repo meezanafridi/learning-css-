@@ -1,0 +1,48 @@
+/* LAST RULE */
+/* p{
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+p{
+    color: blue;
+} */
+
+/* SPECIFICITY */
+/* *{
+    color: red !important;
+}
+
+p{
+    color: green ;
+}
+
+p{
+    color: blue;
+} */
+
+/* INHERITANCE */
+/* div{
+    color: blue;
+}
+
+p{
+    font-family: cursive;
+    color: red;
+} */
+
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: brown;
+    padding: 10x;
+    border: 1px solid red;
+}
+
+.page{
+    background-color: white;
+    border: inherit;
+    padding: inherit;
+}
